@@ -1,0 +1,27 @@
+{
+  "name": "daily-coding-problem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gabrieldissotti/daily-coding-problem.git",
+  "author": "Gabriel Dissotti <gabrieldnrodrigues@gmail.com> (https://gabriel.dissotti.com/)",
+  "license": "MIT",
+  "scripts": {
+    "pretest": "NODE_ENV=test",
+    "test": "NODE_ENV=test yarn jest",
+    "posttest": "NODE_ENV=development",
+    "test:watch": "NODE_ENV=test yarn jest --watchAll"
+  },
+  "devDependencies": {
+    "@sucrase/jest-plugin": "^2.0.0",
+    "jest": "^25.2.3",
+    "sucrase": "^3.12.1",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.8.3"
+  },
+  "engines": {
+    "node": "12.16.1"
+  },
+  "dependencies": {
+    "@types/jest": "^25.1.4"
+  }
+}
